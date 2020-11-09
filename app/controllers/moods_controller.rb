@@ -12,7 +12,7 @@ class MoodsController < ApplicationController
 
     private
 
-    def journal_params
-        params.require(:mood).permit(:date, :name)
+    def mood_params
+        params.require(:mood).permit(:date, :name, :image_url)
     end
 end
