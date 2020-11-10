@@ -46,9 +46,13 @@ Mood.create(arrayOfMoods)
     Journal.create(date: "November 9 2020", user: User.all.sample, content: Faker::Lorem.paragraph)
 end
 
-Log.create(user_id: 1, mood_id: 4, date: "November 1 2020")
-Log.create(user_id: 1, mood_id: 3, date: "November 2 2020")
-Log.create(user_id: 1, mood_id: 2, date: "November 3 2020")
-Log.create(user_id: 1, mood_id: 1, date: "November 4 2020")
+Log.create(user_id: 1, mood_id: 4, date: "November 9 2020", notes: Faker::Lorem.paragraph)
+Log.create(user_id: 1, mood_id: 3, date: "November 8 2020", notes: Faker::Lorem.paragraph)
+Log.create(user_id: 1, mood_id: 2, date: "November 7 2020", notes: Faker::Lorem.paragraph)
+Log.create(user_id: 1, mood_id: 1, date: "November 6 2020", notes: Faker::Lorem.paragraph)
+Log.create(user_id: 1, mood_id: 3, date: "November 5 2020", notes: Faker::Lorem.paragraph)
+Log.create(user_id: 1, mood_id: 4, date: "November 4 2020", notes: Faker::Lorem.paragraph)
+Log.create(user_id: 1, mood_id: 2, date: "November 3 2020", notes: Faker::Lorem.paragraph)
+
     
 puts "Done seeding!"
