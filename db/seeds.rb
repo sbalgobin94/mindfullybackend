@@ -54,5 +54,11 @@ Log.create(user_id: 1, mood_id: 3, date: "November 5 2020", notes: Faker::Lorem.
 Log.create(user_id: 1, mood_id: 4, date: "November 4 2020", notes: Faker::Lorem.paragraph)
 Log.create(user_id: 1, mood_id: 2, date: "November 3 2020", notes: Faker::Lorem.paragraph)
 
+Goal.create(user_id:1, name: "Exercise daily", status: false)
+Goal.create(user_id:1, name: "Meditate every morning for a week", status: false)
+Goal.create(user_id:1, name: "Journal every day for a week", status: false)
+Goal.create(user_id:1, name: "Find a therapist", status: false)
+Goal.create(user_id:1, name: "Set boundaries with parents", status: false)
+
     
 puts "Done seeding!"
