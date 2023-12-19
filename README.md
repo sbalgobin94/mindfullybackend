@@ -1,5 +1,5 @@
 # Mindfully
-## Mindfully is a mental health web app that allows you to make an appointment with a therapist, journal, and keep track of your goals.
+## Mindfully is a mental health web app that allows you to make an appointment with a therapist, journal, and keep track of your goals and moods.
 
 ## How to Install
 ### Clone the repo onto your local machine.
